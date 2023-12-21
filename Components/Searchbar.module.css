@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+
+.searchbar {
+    width: 500px;
+    max-width: 500px;
+    border: 2px solid grey;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.searchbar input {
+    width: 100%;
+    border: none;
+    padding: 0px 10px;
+    font-size: 18px;
+    outline: none;
+}
+
+
+.searchbar:hover {
+    cursor: pointer;
+}
